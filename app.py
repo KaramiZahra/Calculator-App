@@ -7,7 +7,7 @@ while True:
         'sin': math.sin,
         'cos': math.cos,
         'tan': math.tan,
-        'log': math.tan
+        'log': math.log
     }
     expr = input("Enter your expression or 'q' to quit: ")
     if expr.lower() == 'q':
